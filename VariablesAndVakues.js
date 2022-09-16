@@ -6,6 +6,10 @@
     Using nothing
  */
 
+    a = 10;
+    console.log(typeof(a));
+
+
     // variables declaration using Var keyword 
 
     var variable1 = 11;
@@ -54,7 +58,7 @@ const num = 34;
 const float = 66.34;
 const string = "hello world";
 const nan = NaN;
-const big_int = 5456424455283454805407880258700n;
+const big_int = 5456407880258700n;
 const T_F = false;
 
 console.log(`\n ${num} \n ${float}\n ${string}\n ${nan}\n ${big_int}\n ${T_F}`);
@@ -73,7 +77,7 @@ var variable1 = 59;
 
 num1 = 10;
 variable1 = 22;
-// cst = 44;             // Error
+// cst = 44;           // Error
 
 
 console.log(num1);
